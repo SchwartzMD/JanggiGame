@@ -495,12 +495,3 @@ def main():
 if __name__ == "__main__":
     # call the main function
     main()
-
-JanggiGame().print_board()
-
-game = JanggiGame()
-game.print_board()
-print(game.get_turn())
-print(game.make_move('c10', 'd8'))
-print(game.make_move('h1', 'e3'))
-print(game.get_game_state())
